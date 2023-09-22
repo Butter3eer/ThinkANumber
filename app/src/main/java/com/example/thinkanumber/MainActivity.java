@@ -182,8 +182,8 @@ public class MainActivity extends AppCompatActivity {
         randomNumber = rnd.nextInt(11);
 
         alertGameOver = new AlertDialog.Builder(this);
-        alertGameOver.setTitle("Játék vége")
-                .setMessage("Újra akarod kezdeni?")
+        alertGameOver.setTitle("Győzelem")
+                .setMessage("Szeretne új játékot játszani??")
                 .setNegativeButton("Igen", (dialogInterface, i) -> {
                     newGame();
                 })
